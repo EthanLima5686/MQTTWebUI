@@ -1,0 +1,58 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    background: black;
+}
+
+/*Website Title*/
+.uiTitle {
+    color: rgb(218, 7, 218);
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#TestingHTML {
+    color: rgb(218, 7, 218);
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+#logTitle {
+    color: turquoise;
+    text-align: left;
+    font-family:'Courier New', Courier, monospace;
+}
+
+/*Change attributes of MQTT messages*/
+#message {
+    color: turquoise;
+    font-family:'Courier New', Courier, monospace;
+}
+
+/*Change attributes of text box for MQTT messages*/
+.textbox {
+    width: 1000px;
+    height: 1000px;
+    display: inline-block;
+    vertical-align: top;
+    background-color: black;
+}
+
+/*Change attributes of cancel button*/
+#cancelButton {
+    color: red;
+    background-color: rgb(52, 5, 71);
+    border-radius: 12px;
+    display: inline-block;
+    margin-left: 25%;
+    margin-top: 20%;
+    width: 5%;
+    height: 5%;
+    position: fixed;
+    padding: 10px;
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace;
+}
